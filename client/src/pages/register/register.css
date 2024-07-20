@@ -1,0 +1,30 @@
+
+.register__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+form{
+    border: 1px solid rgb(228, 219, 219);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.register__input{
+    height: 30px;
+    width: 400px;;
+}
+
+.register__btn{
+    height: 30px;
+    cursor: pointer;
+}

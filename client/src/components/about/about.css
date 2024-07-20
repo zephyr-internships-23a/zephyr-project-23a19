@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about__container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 30px;
+  margin: 30px;
+}
+
+.about__img > img {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.about__us {
+  padding: 10px;
+}
+
+.about__us > h1 {
+  margin-bottom: 10px;
+}
+
+.aboutCounter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.counter{
+    font-size: 30px;
+}
+
+
